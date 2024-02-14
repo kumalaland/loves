@@ -1,0 +1,33 @@
+.heart {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('https://pngimg.com/uploads/heart/heart_PNG51130.png') no-repeat center;
+    background-size: cover;
+    animation: float 2s ease-out;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-100px); opacity: 0; }
+}
+
+main {
+    width: 300px;
+}
+
+body {
+    background-color: #ff588f;
+}
+
+p {
+    color: white;
+}
+
+button {
+    width: 150px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px white;
+}
